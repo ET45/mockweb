@@ -4,9 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontFamily:{'sans':['sans-serif']},
+    fontFamily:{
+      'sans':['sans-serif']
+    },
     fontSize: {
-      'tiny':'20px',
+      'size1':'20px',
     },
     extend: {},
   },
