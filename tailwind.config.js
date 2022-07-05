@@ -8,6 +8,7 @@ module.exports = {
       'sans':['sans-serif']
     },
     fontSize: {
+      vtiny: ".700rem",
       tiny: ".875rem",
       base: "1rem",
       lg: "1.125rem",
@@ -23,6 +24,8 @@ module.exports = {
       spacing: {
         '120': '30rem',
         '160': '40rem',
+        '168': '42rem', 
+        '180': '45rem',
       },
       margin: {
         '50':'12.5rem',

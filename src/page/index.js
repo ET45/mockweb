@@ -5,12 +5,22 @@ export default function Page() {
     <div>
       <div></div>
       <div className="flex relative place-content-center">
-        <img src="image6.png" alt="img6"  width="700" />
-        <h2 className="absolute pl-60 pr-160 text-left font-bold text-xl text-white top-1/8 left-1/16 ">
+        <img src="image6.png" alt="img6" width="700" />
+
+        <h2 className="absolute pl-60 pr-160 text-left font-bold text-xl text-white top-1/8 ">
           BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
         </h2>
-        <p className="absolute pl-60 pr-160 text-left text-white text-base pt-32 left-1/16">Bekijk onze korting op energiebesparende producten.</p>
-        <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 rounded">Ja, ik wil energie besparen</button>
+        <p className="absolute pl-60 pr-160 text-left text-white text-base pt-32">
+          Bekijk onze korting op energiebesparende producten.
+        </p>
+        <div className="absolute pr-168 pt-44">
+          <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 rounded">
+            Ja, ik wil energie besparen
+          </button>
+        </div>
+        <p className="absolute pl-60 pr-180 text-left text-white text-vtiny italic pt-56">
+          Pagina opent in een nieuw venster
+        </p>
       </div>
       <div className="p-8 font-sans md:font-serif text-center">
         <h2 className="p-8 font-bold text-4xl">
