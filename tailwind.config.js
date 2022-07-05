@@ -20,6 +20,10 @@ module.exports = {
       "7xl": "5rem",
     },
     extend: {
+      spacing: {
+        '120': '30rem',
+        '160': '40rem',
+      },
       margin: {
         '50':'12.5rem',
       }
