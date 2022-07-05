@@ -26,6 +26,7 @@ module.exports = {
         '160': '40rem',
         '168': '42rem', 
         '180': '45rem',
+        '200': '50rem',
       },
       margin: {
         '50':'12.5rem',

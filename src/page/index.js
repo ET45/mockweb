@@ -3,24 +3,49 @@ import "./styles.css";
 export default function Page() {
   return (
     <div>
-      <div></div>
-      <div className="flex relative place-content-center">
-        <img src="image6.png" alt="img6" width="700" />
-
-        <h2 className="absolute pl-60 pr-160 text-left font-bold text-xl text-white top-1/8 ">
-          BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
-        </h2>
-        <p className="absolute pl-60 pr-160 text-left text-white text-base pt-32">
-          Bekijk onze korting op energiebesparende producten.
-        </p>
-        <div className="absolute pr-168 pt-44">
-          <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 rounded">
-            Ja, ik wil energie besparen
-          </button>
+      <div className="flex flex-row">
+        <div className="flex relative ">
+          <img src="image6.png" alt="img6" width="700" />
+          <div className="absolute pr-200">
+            <h2 className=" text-left font-bold text-xl text-white top-1/8 ">
+              BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
+            </h2>
+          </div>
+          <div className="absolute pr-200">
+            <p className=" text-left text-white text-base pt-32">
+              Bekijk onze korting op energiebesparende producten.
+            </p>
+          </div>
+          <div className="absolute pr-168 pt-44">
+            <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 text-white rounded">
+              Ja, ik wil energie besparen
+            </button>
+          </div>
+          <div className="absolute pr-200">
+            <p className="absolute  text-left text-white text-vtiny italic pt-56">
+              Pagina opent in een nieuw venster
+            </p>
+          </div>
         </div>
-        <p className="absolute pl-60 pr-180 text-left text-white text-vtiny italic pt-56">
-          Pagina opent in een nieuw venster
-        </p>
+        <div className="">
+          <div className="border border-black-200 ">
+            <h1 className="text-purple-500 text-lg text-left font-bold">
+              Grip op energie
+            </h1>
+            <p className="text-left">
+              Waarom zijn de energieprijzen hoog en wat betekent dit voor je
+              contract? We leggen het graag aan je uit. En helpen je graag met
+              besparen en eventuele vragen over betalen. Zo houd je grip op je
+              energierekening.
+            </p>
+            <div>
+              <button className="bg-white-500 text-black border border-blue-500  hover:bg-blue-500 hover:text-white py-2 px-4 rounded">
+                Bekijk het advises
+              </button>
+            </div>
+            <p>Meer informatie</p>
+          </div>
+        </div>
       </div>
       <div className="p-8 font-sans md:font-serif text-center">
         <h2 className="p-8 font-bold text-4xl">
@@ -40,6 +65,7 @@ export default function Page() {
           in de buurt.
         </p>
       </div>
+
       <div className="flex space-x-4 grid grid-rows=-4 grid-flow-col gap-4 font-sans mx-50 m-20">
         <div>
           <p className=" text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold text-size1">
