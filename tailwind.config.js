@@ -10,7 +10,11 @@ module.exports = {
     fontSize: {
       'size1':'20px',
     },
-    extend: {},
+    extend: {
+      margin: {
+        '50':'200px',
+      }
+    },
   },
   plugins: [],
 }
