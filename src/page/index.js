@@ -3,7 +3,7 @@ import "./styles.css";
 export default function Page() {
   return (
     <div>
-      <div className="flex flex-row">
+      <div className=" px-20 flex-row space-x-4">
         <div className="flex relative ">
           <img src="image6.png" alt="img6" width="700" />
           <div className="absolute pr-200">
@@ -12,22 +12,22 @@ export default function Page() {
             </h2>
           </div>
           <div className="absolute pr-200">
-            <p className=" text-left text-white text-base pt-32">
+            <p className=" text-left text-white text-base pt-24">
               Bekijk onze korting op energiebesparende producten.
             </p>
           </div>
-          <div className="absolute pr-168 pt-44">
+          <div className="absolute pr-168 pt-36">
             <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 text-white rounded">
               Ja, ik wil energie besparen
             </button>
           </div>
-          <div className="absolute pr-200">
-            <p className="absolute  text-left text-white text-vtiny italic pt-56">
+          <div className="absolute pr-200 pt-48">
+            <p className="absolute  text-left text-white text-vtiny italic">
               Pagina opent in een nieuw venster
             </p>
           </div>
         </div>
-        <div className="">
+        <div className="pr-160">
           <div className="border border-black-200 ">
             <h1 className="text-purple-500 text-lg text-left font-bold">
               Grip op energie
