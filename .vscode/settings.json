@@ -1,0 +1,17 @@
+{
+    "eslint.nodeEnv": "",
+    "eslint.options": {
+    
+    },
+    "eslint.debug": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "editor.codeLensFontFamily": "all",
+    "editor.codeLens": true,
+    "editor.columnSelection": false
+}
