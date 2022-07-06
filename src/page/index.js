@@ -67,12 +67,10 @@ export default function Page() {
         </p>
       </div>
 
-      <div className="flex space-x-4 grid grid-flow-col gap-4 font-sans mx-50 m-20">
-        <div>
-          <h4 className="headline">
-            Stroom &amp; Gas
-          </h4>
-          <img classname="object-none h-48 w-96" src="image3.jpg" alt="img3"  />
+      <div className="flex grid grid-flow-col  font-sans mx-52 m-20">
+        <div className="card">
+          <h4 className="headline">Stroom &amp; Gas</h4>
+          <img src="image3.jpg" alt="img3" />
           <ul className="list">
             <li className="p-2 border-bottom">
               Vergelijk onze energieaanbiedingen
@@ -82,10 +80,8 @@ export default function Page() {
             <li className="p-2 border-bottom">Stroom &amp; Gas tarieven</li>
           </ul>
         </div>
-        <div>
-          <h4 className="headline">
-            Enregieproducten
-          </h4>
+        <div className="card">
+          <h4 className="headline">Enregieproducten</h4>
           <img src="image2.jpg" alt="img2" />
           <ul className="list">
             <li className="p-2 border-bottom">Zonnepanelen</li>
@@ -94,10 +90,8 @@ export default function Page() {
             <li className="p-2 border-bottom">Cv-ketel onderhoud</li>
           </ul>
         </div>
-        <div>
-          <h4 className="headline">
-            Speciaal voor klanten
-          </h4>
+        <div className="card">
+          <h4 className="headline">Speciaal voor klanten</h4>
           <img src="image1.jpg" alt="img1" />
           <ul className="list">
             <li className="p-2 border-bottom">Klantprogramma Thuisvoordeel</li>

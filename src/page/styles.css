@@ -9,4 +9,7 @@
   .list{
     @apply text-left divide-y border border-white drop-shadow-md
   }
+  .card{
+    @apply flex-none w-80
+  }
 }
