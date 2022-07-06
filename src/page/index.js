@@ -3,48 +3,47 @@ import "./styles.css";
 export default function Page() {
   return (
     <div>
-      <div className=" p-10 px-10 flex flex-row space-x-4 ">
-        <div className="flex w-6/8 relative pl-36">
+      <div className=" p-10 px-48 flex w-100 flex-row  ">
+        <div className="flex w-2/3 relative">
           <img src="image6.png" alt="img6" width="700" />
-          <div className="absolute pr-120">
-            <h2 className=" text-left font-bold text-l text-white top-1/8 ">
+          <div className="absolute">
+            <h2 className=" text-left font-bold text-l text-white top-1/8 pr-120 p-4 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
             </h2>
           </div>
-          <div className="absolute pr-120 pt-4 ">
-            <p className=" text-left text-white text-base pt-24">
+          <div className="absolute pt-24 ">
+            <p className=" text-left text-white text-base pr-120 p-4">
               Bekijk onze korting op energiebesparende producten.
             </p>
           </div>
-          <div className="absolute pr-168 pt-40">
+          <div className="absolute pr-168 pt-44 p-4">
             <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 text-white rounded">
               Ja, ik wil energie besparen
             </button>
           </div>
-          <div className="absolute pr-200 pt-52">
+          <div className="absolute pr-200 pt-56 p-4">
             <p className="absolute  text-left text-white text-vtiny italic">
               Pagina opent in een nieuw venster
             </p>
           </div>
         </div>
-
-        <div>
-          <div className="absolute border border-black-200 w-1/6 p-8">
+        <div className="flex w-1/3">
+          <div className=" border border-black-200 p-4">
             <h1 className="text-purple-500 text-lg text-left font-bold">
               Grip op energie
             </h1>
-            <p className="text-left">
+            <p className="text-left pt-4">
               Waarom zijn de energieprijzen hoog en wat betekent dit voor je
               contract? We leggen het graag aan je uit. En helpen je graag met
               besparen en eventuele vragen over betalen. Zo houd je grip op je
               energierekening.
             </p>
-            <div>
+            <div className="text-left pt-4">
               <button className="bg-white-500 text-black border border-blue-500  hover:bg-blue-500 hover:text-white py-2 px-4 rounded">
                 Bekijk het advises
               </button>
             </div>
-            <p className="text-left text-blue-500 ">Meer informatie</p>
+            <p className="text-left text-blue-500 pt-4">Meer informatie</p>
           </div>
         </div>
       </div>
