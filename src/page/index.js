@@ -100,11 +100,13 @@ export default function Page() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row place-content-center">
-        Onze klanten beoordelen ons met een <strong>8,1</strong>
+      <div className="flex  flex-row pb-8 place-content-center">
+        <p className="pt-4">
+          Onze klanten beoordelen ons met een <strong>8,1</strong>
+        </p>
         <img src="logo.png" alt="logo" />
       </div>
-      <div className="bg-gray-300 py-4">
+      <div className="bg-gray-100 py-4">
         <h1 className="text-4xl font-bold text-left py-4 pl-52">
           Vandaag geregeld
         </h1>
@@ -173,7 +175,9 @@ export default function Page() {
           </div>
           <div className=" w-1/2 space-y-8 pr-24">
             <div>
-              <h1 className="font-bold text-2xl pb-4 text-left">Energieleverancier Essent</h1>
+              <h1 className="font-bold text-2xl pb-4 text-left">
+                Energieleverancier Essent
+              </h1>
               <p className="text-left">
                 Als energieleverancier helpen we ruim 2,5 miljoen klanten aan
                 energie in de particuliere en zakelijke markt. We helpen je
@@ -189,7 +193,9 @@ export default function Page() {
               </p>
             </div>
             <div>
-              <h1 className="font-bold text-2xl pb-4 text-left">Meer dan alleen een energieleverancier</h1>
+              <h1 className="font-bold text-2xl pb-4 text-left">
+                Meer dan alleen een energieleverancier
+              </h1>
               <p className="text-left">
                 Essent wil klanten helpen hun huis of zaak comfortabel én
                 energiezuinig te maken. Wij bieden als energiemaatschappij
@@ -201,6 +207,61 @@ export default function Page() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col text-white bg-gray-400 p-8 px-56 space-y-12">
+        <h1 className="font-bold text-left">Volg Essent hier</h1>
+        <div className="flex flex-row space-x-16">
+          <div className="flex flex-row space-x-8 w-1/2">
+            <img className="h-8" src="facebook.png" alt="face" />
+            <img className="h-8" src="twitter.png" alt="twit" />
+            <img className="h-8" src="youtube.png" alt="you" />
+            <img className="h-8" src="linkedin.png" alt="lin" />
+            <img className="h-8" src="instagram.png" alt="insta" />
+          </div>
+          <div className="flex flex-row w-1/2 space-x-8">
+            <img className="h-8" src="Bulp.png" alt="bulp" />{" "}
+            <p className="pt-2">Kennisbank</p>
+          </div>
+        </div>
+        <hr></hr>
+        <div className="flex flex-row pr-60">
+          <div className="w-1/3 text-left space-y-8">
+            <h4 className="font-bold">Particulier</h4>
+            <ul className="space-y-4">
+              <li>Stroom en gas</li>
+              <li>Zonnepanelen</li>
+              <li>Cv-ketels</li>
+              <li>Klantenservice</li>
+            </ul>
+          </div>
+          <div className="w-1/3 text-left space-y-8">
+            <h4 className="font-bold">Zakelijk</h4>
+            <ul className="space-y-4">
+              <li>Zakelijke energie</li>
+              <li>Energie besparen</li>
+              <li>Offerte aanvragen</li>
+              <li>Klantenservice</li>
+            </ul>
+          </div>
+          <div className="w-1/3 text-left space-y-8">
+            <h4 className="font-bold">Over Essent</h4>
+            <ul className="space-y-4">
+              <li>Energietransitie</li>
+              <li>Nieuws en media</li>
+              <li>Contact</li>
+              <li>Bij ons werken</li>
+            </ul>
+          </div>
+        </div>
+        <hr></hr>
+        <div></div>
+        <div>h1 and imgessent</div>
+        <div></div>
+        <div>
+          <div></div>
+          <p></p>
+          <p></p>
         </div>
       </div>
     </div>
