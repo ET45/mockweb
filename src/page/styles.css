@@ -7,9 +7,15 @@
     @apply text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold;
   }
   .list{
-    @apply text-left divide-y border border-white drop-shadow-md
+    @apply text-left divide-y  drop-shadow-lg bg-white
   }
   .card{
     @apply flex-none w-80
+  }
+  .icongray{
+    @apply flex flex-row bg-gray-100 space-x-4 w-56 h-16 drop-shadow-lg pt-2 rounded
+  }
+  .pinkheader{
+    @apply flex flex-row place-content-center
   }
 }
