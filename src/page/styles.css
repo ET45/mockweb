@@ -1,5 +1,12 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .headline {
+    @apply text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold;
+  }
+  .list{
+    @apply text-left divide-y border border-white drop-shadow-md
+  }
+}

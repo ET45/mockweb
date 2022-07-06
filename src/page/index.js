@@ -3,32 +3,33 @@ import "./styles.css";
 export default function Page() {
   return (
     <div>
-      <div className=" px-20 flex-row space-x-4">
-        <div className="flex relative ">
+      <div className=" p-10 px-10 flex flex-row space-x-4 ">
+        <div className="flex w-6/8 relative pl-36">
           <img src="image6.png" alt="img6" width="700" />
-          <div className="absolute pr-200">
-            <h2 className=" text-left font-bold text-xl text-white top-1/8 ">
+          <div className="absolute pr-120">
+            <h2 className=" text-left font-bold text-l text-white top-1/8 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
             </h2>
           </div>
-          <div className="absolute pr-200">
+          <div className="absolute pr-120 pt-4 ">
             <p className=" text-left text-white text-base pt-24">
               Bekijk onze korting op energiebesparende producten.
             </p>
           </div>
-          <div className="absolute pr-168 pt-36">
+          <div className="absolute pr-168 pt-40">
             <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 text-white rounded">
               Ja, ik wil energie besparen
             </button>
           </div>
-          <div className="absolute pr-200 pt-48">
+          <div className="absolute pr-200 pt-52">
             <p className="absolute  text-left text-white text-vtiny italic">
               Pagina opent in een nieuw venster
             </p>
           </div>
         </div>
-        <div className="pr-160">
-          <div className="border border-black-200 ">
+
+        <div>
+          <div className="absolute border border-black-200 w-1/6 p-8">
             <h1 className="text-purple-500 text-lg text-left font-bold">
               Grip op energie
             </h1>
@@ -43,7 +44,7 @@ export default function Page() {
                 Bekijk het advises
               </button>
             </div>
-            <p>Meer informatie</p>
+            <p className="text-left text-blue-500 ">Meer informatie</p>
           </div>
         </div>
       </div>
@@ -66,13 +67,13 @@ export default function Page() {
         </p>
       </div>
 
-      <div className="flex space-x-4 grid grid-rows=-4 grid-flow-col gap-4 font-sans mx-50 m-20">
+      <div className="flex space-x-4 grid grid-flow-col gap-4 font-sans mx-50 m-20">
         <div>
-          <p className=" text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold text-size1">
+          <h4 className="headline">
             Stroom &amp; Gas
-          </p>
-          <img src="image3.jpg" alt="img3" />
-          <ul className="text-left divide-y border border-white drop-shadow-md">
+          </h4>
+          <img classname="object-none h-48 w-96" src="image3.jpg" alt="img3"  />
+          <ul className="list">
             <li className="p-2 border-bottom">
               Vergelijk onze energieaanbiedingen
             </li>
@@ -82,11 +83,11 @@ export default function Page() {
           </ul>
         </div>
         <div>
-          <p className="text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold text-size1">
+          <h4 className="headline">
             Enregieproducten
-          </p>
+          </h4>
           <img src="image2.jpg" alt="img2" />
-          <ul className="text-left divide-y divide-white-100 border-2 border-white-500 drop-shadow-md">
+          <ul className="list">
             <li className="p-2 border-bottom">Zonnepanelen</li>
             <li className="p-2 border-bottom">Isolatie</li>
             <li className="p-2 border-bottom">Gratis online huisscan</li>
@@ -94,11 +95,11 @@ export default function Page() {
           </ul>
         </div>
         <div>
-          <p className="text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold text-size1">
+          <h4 className="headline">
             Speciaal voor klanten
-          </p>
+          </h4>
           <img src="image1.jpg" alt="img1" />
-          <ul className="text-left divide-y divide-white-100 border-2 border-white-500 drop-shadow-md">
+          <ul className="list">
             <li className="p-2 border-bottom">Klantprogramma Thuisvoordeel</li>
             <li className="p-2 border-bottom">Verbruiksmanager+app</li>
             <li className="p-2 border-bottom">Mijn Essent</li>
