@@ -74,6 +74,7 @@ export default function Body2() {
               <h1 className="font-bold text-2xl pb-4 text-left">
                 Energieleverancier Essent
               </h1>
+              <div className="space-y-4">
               <p className="text-left">
                 Als energieleverancier helpen we ruim 2,5 miljoen klanten aan
                 energie in de particuliere en zakelijke markt. We helpen je
@@ -87,6 +88,7 @@ export default function Body2() {
                 Weten wat je bij het huidige tarief per maand gaat betalen? Vul
                 de postcodecheck in en je weet het binnen 1 minuut.
               </p>
+              </div>
             </div>
             <div>
               <h1 className="font-bold text-2xl pb-4 text-left">
