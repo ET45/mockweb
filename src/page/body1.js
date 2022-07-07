@@ -4,25 +4,25 @@ export default function Body1() {
   return (
     <div className="flex flex-col">
       <div className=" p-10 px-48 flex space-x-4 flex-row pr-64 ">
-        <div className="flex w-2/3 relative">
+        <div className="flex w-2/3 relative text-white">
           <img className="h-700" src="image6.png" alt="img6" />
           <div className="absolute">
-            <h2 className=" text-left font-bold text-l text-white top-1/8 pr-120 p-4 ">
+            <h2 className=" text-left font-bold text-l  top-1/8 pr-120 p-4 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
             </h2>
           </div>
           <div className="absolute pt-24 ">
-            <p className=" text-left text-white text-base pr-120 p-4">
+            <p className=" text-left  text-base pr-120 p-4">
               Bekijk onze korting op energiebesparende producten.
             </p>
           </div>
           <div className="absolute pr-168 pt-44 p-4">
-            <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4 text-white rounded">
+            <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4  rounded">
               Ja, ik wil energie besparen
             </button>
           </div>
           <div className="absolute pr-200 pt-56 p-4">
-            <p className="absolute  text-left text-white text-vtiny italic">
+            <p className="absolute  text-left  text-vtiny italic">
               Pagina opent in een nieuw venster
             </p>
           </div>
@@ -71,32 +71,55 @@ export default function Body1() {
           <h4 className="headline">Stroom &amp; Gas</h4>
           <img src="image3.jpg" alt="img3" />
           <ul className="list">
-            <li className="p-2 border-bottom">
-              Vergelijk onze energieaanbiedingen
+            <li className="listitem ">
+              Vergelijk onze energieaanbiedingen{" "}
+              <img
+                className="h-6 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              />
             </li>
-            <li className="p-2 border-bottom">Overstappen naar Essent</li>
-            <li className="p-2 border-bottom">Snel klant worden</li>
-            <li className="p-2 border-bottom">Stroom &amp; Gas tarieven</li>
+            <li className="listitem ">
+              Overstappen naar Essent{" "}
+              <img
+                className="h-6 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              />
+            </li>
+            <li className="listitem flex f">
+              Snel klant worden{" "}
+              <img
+                className="h-6 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              />
+            </li>
+            <li className="listitem">Stroom &amp; Gas tarieven <img
+                className="h-6 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
           </ul>
         </div>
         <div className="card">
           <h4 className="headline">Enregieproducten</h4>
           <img src="image2.jpg" alt="img2" />
           <ul className="list">
-            <li className="p-2 border-bottom">Zonnepanelen</li>
-            <li className="p-2 border-bottom">Isolatie</li>
-            <li className="p-2 border-bottom">Gratis online huisscan</li>
-            <li className="p-2 border-bottom">Cv-ketel onderhoud</li>
+            <li className="listitem">Zonnepanelen</li>
+            <li className="listitem">Isolatie</li>
+            <li className="listitem">Gratis online huisscan</li>
+            <li className="listitem">Cv-ketel onderhoud</li>
           </ul>
         </div>
         <div className="card">
           <h4 className="headline">Speciaal voor klanten</h4>
           <img src="image1.jpg" alt="img1" />
           <ul className="list">
-            <li className="p-2 border-bottom">Klantprogramma Thuisvoordeel</li>
-            <li className="p-2 border-bottom">Verbruiksmanager+app</li>
-            <li className="p-2 border-bottom">Mijn Essent</li>
-            <li className="p-2 border-bottom">Klantenservice</li>
+            <li className="listitem">Klantprogramma Thuisvoordeel</li>
+            <li className="listitem">Verbruiksmanager+app</li>
+            <li className="listitem">Mijn Essent</li>
+            <li className="listitem">Klantenservice</li>
           </ul>
         </div>
       </div>

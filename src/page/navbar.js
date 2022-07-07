@@ -3,10 +3,10 @@ import "./styles.css";
 export default function Navbar() {
   return (
     <div>
-      <div className="bg-gray-100 px-48">
+      <div className="bg-gray-100 p-4 px-48">
         <div className="flex flex-row text-gray-400 space-x-4">
           <div className="flex flex-row w-1/2 text-left  space-x-4">
-            <p className="text-purple-500">Particulier</p>
+            <p className="text-pink-600">Particulier</p>
             <p>Zzp</p>
             <p>Zakelijk</p>
           </div>
