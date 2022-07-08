@@ -5,7 +5,7 @@ export default function Body1() {
     <div className="flex flex-col">
       <div className=" p-10 px-48 flex space-x-4 flex-row pr-64 ">
         <div className="flex w-2/3 relative text-white">
-          <img className="h-700" src="image6.png" alt="img6" />
+          <img className="h-700 absolute" src="image6.png" alt="img6" />
           <div className="absolute">
             <h2 className=" text-left font-bold text-l  top-1/8 pr-120 p-4 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
@@ -74,7 +74,7 @@ export default function Body1() {
             <li className="listitem ">
               Vergelijk onze energieaanbiedingen{" "}
               <img
-                className="h-6 absolute right-2"
+                className="h-5 absolute right-2"
                 src="arrow.png"
                 alt="arrow"
               />
@@ -82,7 +82,7 @@ export default function Body1() {
             <li className="listitem ">
               Overstappen naar Essent{" "}
               <img
-                className="h-6 absolute right-2"
+                className="h-5 absolute right-2"
                 src="arrow.png"
                 alt="arrow"
               />
@@ -90,36 +90,71 @@ export default function Body1() {
             <li className="listitem flex f">
               Snel klant worden{" "}
               <img
-                className="h-6 absolute right-2"
+                className="h-5 absolute right-2"
                 src="arrow.png"
                 alt="arrow"
               />
             </li>
-            <li className="listitem">Stroom &amp; Gas tarieven <img
-                className="h-6 absolute right-2"
+            <li className="listitem">
+              Stroom &amp; Gas tarieven{" "}
+              <img
+                className="h-5 absolute right-2"
                 src="arrow.png"
                 alt="arrow"
-              /></li>
+              />
+            </li>
           </ul>
         </div>
         <div className="card">
           <h4 className="headline">Enregieproducten</h4>
           <img src="image2.jpg" alt="img2" />
           <ul className="list">
-            <li className="listitem">Zonnepanelen</li>
-            <li className="listitem">Isolatie</li>
-            <li className="listitem">Gratis online huisscan</li>
-            <li className="listitem">Cv-ketel onderhoud</li>
+            <li className="listitem">Zonnepanelen <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
+            <li className="listitem">Isolatie <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
+            <li className="listitem">Gratis online huisscan <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
+            <li className="listitem">Cv-ketel onderhoud <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
           </ul>
         </div>
         <div className="card">
           <h4 className="headline">Speciaal voor klanten</h4>
           <img src="image1.jpg" alt="img1" />
           <ul className="list">
-            <li className="listitem">Klantprogramma Thuisvoordeel</li>
-            <li className="listitem">Verbruiksmanager+app</li>
-            <li className="listitem">Mijn Essent</li>
-            <li className="listitem">Klantenservice</li>
+            <li className="listitem">Klantprogramma Thuisvoordeel <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
+            <li className="listitem">Verbruiksmanager+app <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
+            <li className="listitem">Mijn Essent <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
+            <li className="listitem">Klantenservice <img
+                className="h-5 absolute right-2"
+                src="arrow.png"
+                alt="arrow"
+              /></li>
           </ul>
         </div>
       </div>

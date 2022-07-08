@@ -1,24 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer components {
   .headline {
     @apply text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold;
   }
-  .list{
-    @apply text-left divide-y  drop-shadow-lg bg-white
+  .list {
+    @apply text-left divide-y  drop-shadow-lg bg-white;
   }
-  .card{
-    @apply flex-none w-80
+  .card {
+    @apply flex-none w-80;
   }
-  .icongray{
-    @apply flex flex-row bg-white space-x-4 w-56 h-16 drop-shadow-lg pt-2 rounded
+  .icongray {
+    @apply flex flex-row bg-white space-x-4 w-56 h-16 drop-shadow-lg pt-2 rounded;
   }
-  .pinkheader{
-    @apply flex flex-row space-x-2
+  .pinkheader {
+    @apply flex flex-row space-x-2;
   }
-  .listitem{
-    @apply p-3 flex flex-row
+  .listitem {
+    @apply p-3 flex flex-row;
   }
 }

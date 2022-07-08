@@ -26,7 +26,6 @@ export default function Navbar() {
           <p>Speciaal voor Klanten</p>
           <p>Klantenservice</p>
         </div>
-        
       </div>
       <hr></hr>
     </div>

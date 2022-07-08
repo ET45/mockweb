@@ -75,19 +75,19 @@ export default function Body2() {
                 Energieleverancier Essent
               </h1>
               <div className="space-y-4">
-              <p className="text-left">
-                Als energieleverancier helpen we ruim 2,5 miljoen klanten aan
-                energie in de particuliere en zakelijke markt. We helpen je
-                graag om duurzamer te leven én te besparen. Daar hoort vandaag
-                de dag ook groene stroom bij. Opgewekt met windmolens en
-                zonnepanelen en steeds meer van Nederlandse bodem.
-              </p>
-              <p className="text-left">
-                Bij Essent kies je uit een aantal standaard stroom- en
-                gasproducten. Welk contract je ook kiest, bij ons zit je goed.
-                Weten wat je bij het huidige tarief per maand gaat betalen? Vul
-                de postcodecheck in en je weet het binnen 1 minuut.
-              </p>
+                <p className="text-left">
+                  Als energieleverancier helpen we ruim 2,5 miljoen klanten aan
+                  energie in de particuliere en zakelijke markt. We helpen je
+                  graag om duurzamer te leven én te besparen. Daar hoort vandaag
+                  de dag ook groene stroom bij. Opgewekt met windmolens en
+                  zonnepanelen en steeds meer van Nederlandse bodem.
+                </p>
+                <p className="text-left">
+                  Bij Essent kies je uit een aantal standaard stroom- en
+                  gasproducten. Welk contract je ook kiest, bij ons zit je goed.
+                  Weten wat je bij het huidige tarief per maand gaat betalen?
+                  Vul de postcodecheck in en je weet het binnen 1 minuut.
+                </p>
               </div>
             </div>
             <div>
