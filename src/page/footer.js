@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
         </div>
         <hr></hr>
-        <div className="flex flex-row pr-60">
+        <div className="flex flex-row pr-60 space-x-4 ">
           <div className="w-1/3 text-left space-y-8">
             <h4 className="font-bold">Particulier</h4>
             <ul className="space-y-4">

@@ -2,37 +2,30 @@ import "./styles.css";
 
 export default function Body1() {
   return (
-    <div className="flex flex-col">
-      <div className=" p-10 px-48 flex space-x-4 flex-row pr-64 ">
+    <div>
+      <div className=" p-10 px-48 flex items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row pr-64 ">
         <div className="flex w-2/3 relative text-white">
-          <img
-            className="h-700 absolute"
-            src="images/image/image6.png"
-            alt="img6"
-          />
-          <div className="absolute">
-            <h2 className=" text-left font-bold text-l  top-1/8 pr-120 p-4 ">
+          <img className="h-1000" src="images/image/image6.png" alt="img6" />
+          <div className="absolute flex flex-col rs:mr-100 ">
+            <h2 className=" text-left font-bold text-base rs:text-2xl pl-5 pt-4 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
             </h2>
-          </div>
-          <div className="absolute pt-24 ">
-            <p className=" text-left  text-base pr-120 p-4">
+
+            <p className=" text-left text-tiny rs:text-base pl-5 mr-100 rs:mr-0">
               Bekijk onze korting op energiebesparende producten.
             </p>
-          </div>
-          <div className="absolute pr-168 pt-44 p-4">
-            <button className="absolute bg-blue-500 hover:bg-blue-700 py-2 px-4  rounded">
+
+            <button className=" bg-blue-500 mt-4 mr-96 p-2 rs:p-0 rs:mt-4 hover:bg-blue-700 rs:mr-20 ml-5 text-tiny rs:text-base rs:py-2 rs:px-4  rounded">
               Ja, ik wil energie besparen
             </button>
-          </div>
-          <div className="absolute pr-200 pt-56 p-4">
-            <p className="absolute  text-left  text-vtiny italic">
+
+            <p className=" text-left text-bottom  pl-5 text-vtiny italic">
               Pagina opent in een nieuw venster
             </p>
           </div>
         </div>
-        <div className="flex w-1/3 pl-">
-          <div className=" border border-black-200 p-8">
+        <div className="flex rs:w-1/3 rs:pr-0">
+          <div className=" border border-black-200 rs:p-8">
             <h1 className="text-purple-500 text-lg text-left font-bold">
               Grip op energie
             </h1>

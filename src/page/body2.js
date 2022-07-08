@@ -2,8 +2,8 @@ import "./styles.css";
 export default function Body2() {
   return (
     <div>
-      <div className="bg-gray-100 py-4">
-        <h1 className="text-4xl font-bold text-left py-4 pl-52">
+      <div className="bg-gray-100 bg-cover py-4">
+        <h1 className="text-4xl font-bold rs:text-left py-4 rs:pl-52">
           Vandaag geregeld
         </h1>
         <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 space-x-0 rs:space-x-8 ">
