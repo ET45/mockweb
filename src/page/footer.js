@@ -6,14 +6,14 @@ export default function Footer() {
         <h1 className="font-bold text-left">Volg Essent hier</h1>
         <div className="flex flex-row space-x-16">
           <div className="flex flex-row space-x-8 w-1/2">
-            <img className="h-8" src="facebook.png" alt="face" />
-            <img className="h-8" src="twitter.png" alt="twit" />
-            <img className="h-8" src="youtube.png" alt="you" />
-            <img className="h-8" src="linkedin.png" alt="lin" />
-            <img className="h-8" src="instagram.png" alt="insta" />
+            <img className="h-8" src="images/icon/facebook.png" alt="face" />
+            <img className="h-8" src=" images/icon/twitter.png" alt="twit" />
+            <img className="h-8" src="images/icon/youtube.png" alt="you" />
+            <img className="h-8" src="images/icon/linkedin.png" alt="lin" />
+            <img className="h-8" src="images/icon/instagram.png" alt="insta" />
           </div>
           <div className="flex flex-row w-1/2 space-x-8">
-            <img className="h-8" src="Bulp.png" alt="bulp" />{" "}
+            <img className="h-8" src="images/icon/Bulp.png" alt="bulp" />{" "}
             <p className="pt-2">Kennisbank</p>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function Footer() {
           <h1 className="font-bold text-3xl pt-8 w-1/2 text-left">
             Energie van vandaag
           </h1>
-          <img className="h-20 " src="essent.svg" alt="essent" />
+          <img className="h-20 " src="images/image/essent.svg" alt="essent" />
         </div>
         <hr></hr>
         <div className="flex flex-col">

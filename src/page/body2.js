@@ -6,29 +6,45 @@ export default function Body2() {
         <h1 className="text-4xl font-bold text-left py-4 pl-52">
           Vandaag geregeld
         </h1>
-        <div className="flex flex-row h-6 space-x-16 pr-24 place-content-center pt-4">
+        <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 space-x-0 rs:space-x-8 ">
           <div className="icongray">
-            <img className="h-10 pt-2 pl-2" src="Gauge.png" alt="gauge" />
-            <p className="text-tiny pt-3">Meterstanden doorgeven</p>
+            <img
+              className="h-12 pt-4 pl-2"
+              src="images/icon/Gauge.png"
+              alt="gauge"
+            />
+            <p className="pt-5">Meterstanden doorgeven</p>
           </div>
           <div className="icongray">
-            <img className="h-10 pt-2 pl-2" src="Graph.png" alt="graph" />
-            <p className="text-tiny pt-3">Mijn verbruik inzien</p>
+            <img
+              className="h-12 pt-4 pl-2"
+              src="images/icon/Graph.png"
+              alt="graph"
+            />
+            <p className="pt-5">Mijn verbruik inzien</p>
           </div>
           <div className="icongray">
-            <img className="h-10 pt-2 pl-2" src="Money.png" alt="money" />
-            <p className="text-tiny pt-3">Termijnbedrag wijzigen</p>
+            <img
+              className="h-12 pt-4 pl-2"
+              src="images/icon/Money.png"
+              alt="money"
+            />
+            <p className="pt-5">Termijnbedrag wijzigen</p>
           </div>
           <div className="icongray">
-            <img className="h-10 pt-2 pl-2" src="Paper.png" alt="paper" />
-            <p className="text-tiny pt-3">Facturen bekijken</p>
+            <img
+              className="h-12 pt-4 pl-2"
+              src="images/icon/Paper.png"
+              alt="paper"
+            />
+            <p className="pt-5">Facturen bekijken</p>
           </div>
         </div>
         <div className="flex flex-row p-24 place-content-center px-52 space-x-12">
           <div className="w-1/2 space-y-8 ">
             <div className="flex flex-col">
               <div className="pinkheader ">
-                <img className="h-6" src="pink3.png" alt="p3" />
+                <img className="h-6" src="images/icon/pink3.png" alt="p3" />
                 <h2 className="font-bold text-xl pb-4">Stroom en Gas</h2>
               </div>
               <p className="text-left">
@@ -42,7 +58,7 @@ export default function Body2() {
             </div>
             <div className="flex flex-col">
               <div className="pinkheader">
-                <img className="h-6" src="pink2.png" alt="p2" />
+                <img className="h-6" src="images/icon/pink2.png" alt="p2" />
                 <h2 className="font-bold text-xl pb-4">Energietarieven</h2>
               </div>
               <p className="text-left">
@@ -56,7 +72,7 @@ export default function Body2() {
             </div>
             <div className="flex flex-col">
               <div className="pinkheader">
-                <img className="h-6" src="pink1.png" alt="p1" />
+                <img className="h-6" src="images/icon/pink1.png" alt="p1" />
                 <h2 className="font-bold text-xl pb-4">Verhuizen</h2>
               </div>
               <p className="text-left">

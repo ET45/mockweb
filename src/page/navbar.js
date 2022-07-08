@@ -11,14 +11,14 @@ export default function Navbar() {
             <p>Zakelijk</p>
           </div>
           <div className="flex flex-row w-1/2 pl-80">
-            <img className="h-8" src="Inco.png" alt="man" />{" "}
+            <img className="h-8" src="images/icon/Inco.png" alt="man" />{" "}
             <p>Inloogen Mijn Essent</p>
           </div>
         </div>
       </div>
       <div className="flex flex-row space-x-4 px-48">
         <div>
-          <img src="logo-essent.png" alt="essent" />
+          <img src="images/image/logo-essent.png" alt="essent" />
         </div>
         <div className="flex flex-row pt-8 space-x-4 ">
           <p>Stroom &amp; Gas</p>
