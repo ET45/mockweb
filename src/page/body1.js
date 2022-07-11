@@ -3,30 +3,30 @@ import "./styles.css";
 export default function Body1() {
   return (
     <div>
-      <div className="  px-48 flex items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:pr-64 ">
+      <div className="items-center flex pt-4  space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:pr-64 ">
         <div className="flex  rs:w-2/3 bg-cover text-white">
           <div
-            className="flex bg-local bg-cover flex-col "
+            className="flex flex-col bg-cover h-92 w-200 "
             style={{ backgroundImage: "url('images/image/image6.png')" }}
           >
-            <h2 className=" text-left font-bold text-base rs:text-2xl pl-5 pt-4 ">
+            <h2 className=" w-80 text-left font-bold text-base rs:text-2xl pl-5 pt-4 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
             </h2>
 
-            <p className=" text-left text-tiny rs:text-base pl-5 mr-100 rs:mr-0">
+            <p className=" text-left w-80 text-tiny rs:text-base pl-5 mr-100 rs:mr-0">
               Bekijk onze korting op energiebesparende producten.
             </p>
 
-            <button className=" bg-blue-500 mt-4 mr-96 p-2 pt-20 rs:p-0 rs:mt-4 hover:bg-blue-700 rs:mr-20 ml-5 text-tiny rs:text-base rs:py-2 rs:px-4  rounded">
+            <button className="w-60 bg-blue-500 mt-4  p-2  rs:p-0 rs:mt-4 hover:bg-blue-700 rs:mr-20 ml-5 text-tiny rs:text-base rs:py-2 rs:px-4  rounded">
               Ja, ik wil energie besparen
             </button>
 
-            <p className=" text-left text-bottom  pl-5 pt-20 text-vtiny italic">
+            <p className=" text-left text-bottom  pl-5  text-vtiny italic">
               Pagina opent in een nieuw venster
             </p>
           </div>
         </div>
-        <div className="flex rs:w-1/3 rs:pr-0">
+        <div className="flex rs:h-92 w-200 rs:w-1/3 rs:pr-0">
           <div className=" border border-black-200 rs:p-8">
             <h1 className="text-purple-500 text-lg text-left font-bold">
               Grip op energie

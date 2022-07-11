@@ -6,7 +6,7 @@ import Footer from "./footer";
 
 export default function Page() {
   return (
-    <div className="place-content-center">
+    <div>
       <Navbar />
       <Body1 />
       <Body2 />
