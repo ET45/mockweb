@@ -3,21 +3,21 @@ import "./styles.css";
 export default function Body1() {
   return (
     <div>
-      <div className="items-center flex pt-4  space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:pr-64 ">
-        <div className="flex  rs:w-2/3 bg-cover text-white">
+      <div className=" rs:pl-100 rs:pl-64 rs:item-left rs:px-48 flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:pr-64 ">
+        <div className="flex  rs:w-2/3 text-white">
           <div
-            className="flex flex-col bg-cover h-92 w-200 "
+            className="flex flex-col bg-cover bg-center  rs:h-92 rs:w-200 "
             style={{ backgroundImage: "url('images/image/image6.png')" }}
           >
             <h2 className=" w-80 text-left font-bold text-base rs:text-2xl pl-5 pt-4 ">
               BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA MAKKELIJK.
             </h2>
 
-            <p className=" text-left w-80 text-tiny rs:text-base pl-5 mr-100 rs:mr-0">
+            <p className=" text-left w-80 text-tiny rs:text-base pl-5 ">
               Bekijk onze korting op energiebesparende producten.
             </p>
 
-            <button className="w-60 bg-blue-500 mt-4  p-2  rs:p-0 rs:mt-4 hover:bg-blue-700 rs:mr-20 ml-5 text-tiny rs:text-base rs:py-2 rs:px-4  rounded">
+            <button className="w-60 bg-blue-500 mt-4  p-2  rs:p-0 rs:mt-4 hover:bg-blue-700  ml-5 text-tiny rs:text-base rs:py-2 rs:px-4  rounded">
               Ja, ik wil energie besparen
             </button>
 
@@ -26,7 +26,7 @@ export default function Body1() {
             </p>
           </div>
         </div>
-        <div className="flex rs:h-92 w-200 rs:w-1/3 rs:pr-0">
+        <div className="flex rs:h-92 rs:w-200 rs:w-1/3 rs:pr-0">
           <div className=" border border-black-200 rs:p-8">
             <h1 className="text-purple-500 text-lg text-left font-bold">
               Grip op energie
@@ -46,8 +46,8 @@ export default function Body1() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col p-8 font-sans  text-center">
-        <h2 className="p-8 font-bold text-xl rs:text-4xl">
+      <div className="flex flex-col p-8 pb-12 font-sans  text-center">
+        <h2 className="pb-2 font-bold text-xl rs:text-4xl">
           Dit heeft Essent ook voor jou
         </h2>
         <p className="rs:px-40">
