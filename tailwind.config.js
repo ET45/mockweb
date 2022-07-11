@@ -11,6 +11,7 @@ module.exports = {
     fontSize: {
       vtiny: ".700rem",
       tiny: ".875rem",
+      btiny: ".950rem",
       base: "1rem",
       lg: "1.125rem",
       xl: "1.25rem",

@@ -2,9 +2,9 @@ import "./styles.css";
 export default function Footer() {
   return (
     <div>
-      <div className="flex flex-col text-white bg-gray-400 p-8 rs:px-56 space-y-12">
+      <div className="flex flex-col text-white bg-gray-400 p-4 rs:p-8 rs:px-56 space-y-12">
         <h1 className="font-bold text-left">Volg Essent hier</h1>
-        <div className="flex flex-col rs:flex-row space-y-8 rs:space-x-16">
+        <div className="flex flex-col rs:flex-row space-y-8 rs:space-y-0 rs:space-x-16">
           <div className="flex rs:flex-row space-x-8 w-1/2">
             <img className="h-8" src="images/icon/facebook.png" alt="face" />
             <img className="h-8" src=" images/icon/twitter.png" alt="twit" />
@@ -48,22 +48,26 @@ export default function Footer() {
           </div>
         </div>
         <hr></hr>
-        <div className="flex flex-row">
-          <h1 className="font-bold text-3xl pt-8 w-1/2 text-left">
+        <div className="flex flex-row ">
+          <h1 className="font-bold text-btiny rs:text-3xl pt-8 w-1/2 text-left">
             Energie van vandaag
           </h1>
           <img className="h-20 " src="images/image/essent.svg" alt="essent" />
         </div>
         <hr></hr>
-        <div className="flex flex-col">
-          <div className="flex flex-row">
-            <div className="flex flex-row  space-x-10 ">
-              <p>Privacy</p>
-              <p>Voorwaarden</p>
-              <p>Kennisbank</p>
-              <p>Informatie voor toeleveranciers en inkoopvoorwaarden</p>
+        <div className="flex flex-col ">
+          <div className="flex flex-col space-y-4 rs:space-y-0 rs:flex-row">
+            <div className="flex flex-col rs:flex-row">
+              <div className="flex flex-row text-vtiny rs:text-base space-x-2 rs:space-x-10">
+                <p>Privacy</p>
+                <p>Voorwaarden</p>
+                <p>Kennisbank</p>
+              </div>
+              <p className="text-left text-vtiny rs:text-base">
+                Informatie voor toeleveranciers en inkoopvoorwaarden
+              </p>
             </div>
-            <div className="text-right w-1/4">
+            <div className="text-right rs:w-1/4">
               <p>©Essent2022</p>
             </div>
           </div>

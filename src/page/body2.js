@@ -40,9 +40,9 @@ export default function Body2() {
             <p className="pt-5">Facturen bekijken</p>
           </div>
         </div>
-        <div className="flex flex-row p-24 place-content-center px-52 space-x-12">
+        <div className=" flex flex-col rs:flex-row pt-20 rs:pt-0 rs:p-24 space-y-10 rs:px-52 rs:space-x-12">
           <div className="w-1/2 space-y-8 ">
-            <div className="flex flex-col">
+            <div className="flex flex-col w-screen rs:w-auto">
               <div className="pinkheader ">
                 <img className="h-6" src="images/icon/pink3.png" alt="p3" />
                 <h2 className="font-bold text-xl pb-4">Stroom en Gas</h2>
@@ -56,7 +56,7 @@ export default function Body2() {
                 Bekijk Stroom en Gas aanbod
               </p>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-screen rs:w-auto">
               <div className="pinkheader">
                 <img className="h-6" src="images/icon/pink2.png" alt="p2" />
                 <h2 className="font-bold text-xl pb-4">Energietarieven</h2>
@@ -70,7 +70,7 @@ export default function Body2() {
                 Lees meer over onze energietarieven
               </p>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-screen rs:w-auto">
               <div className="pinkheader">
                 <img className="h-6" src="images/icon/pink1.png" alt="p1" />
                 <h2 className="font-bold text-xl pb-4">Verhuizen</h2>
@@ -86,7 +86,7 @@ export default function Body2() {
             </div>
           </div>
           <div className=" w-1/2 space-y-8 pr-24">
-            <div>
+            <div className="w-screen rs:w-auto">
               <h1 className="font-bold text-2xl pb-4 text-left">
                 Energieleverancier Essent
               </h1>
@@ -106,11 +106,11 @@ export default function Body2() {
                 </p>
               </div>
             </div>
-            <div>
+            <div className="w-screen rs:w-auto">
               <h1 className="font-bold text-2xl pb-4 text-left">
                 Meer dan alleen een energieleverancier
               </h1>
-              <p className="text-left">
+              <p className="text-left ">
                 Essent wil klanten helpen hun huis of zaak comfortabel én
                 energiezuinig te maken. Wij bieden als energiemaatschappij
                 daarom ook andere slimme, energiegerelateerde producten aan.
