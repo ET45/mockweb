@@ -16,7 +16,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col rs:flex-row rs:space-x-4 rs:px-48">
+      <div className="flex flex-col rs:flex-row pl-2 space-x-2 rs:space-x-4 rs:px-48">
         <img
           className="h-8 w-16 rs:h-16 rs:w-32"
           src="images/image/logo-essent.png"

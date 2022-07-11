@@ -31,7 +31,7 @@ export default function Body1() {
         </div>
         <div className="flex rs:h-92   rs:px-0 rs:w-200 rs:w-1/3 ">
           <div className=" border border-black-200 rs:p-8">
-            <h1 className="text-purple-500 px-4 rs:px-0 text-lg text-left font-bold">
+            <h1 className="text-pink-600 px-4 rs:px-0 text-lg text-left font-bold">
               Grip op energie
             </h1>
             <p className="text-left pt-4 px-4 rs:px-0">
