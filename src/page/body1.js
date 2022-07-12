@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function Body1() {
   return (
-    <div>
+    <div className="pt-32">
       <div className=" rs:pl-100 rs:pl-64 rs:item-left rs:px-48 flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:pr-64 ">
         <div className="flex rs:w-2/3 text-white">
           <div

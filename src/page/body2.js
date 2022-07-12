@@ -52,9 +52,9 @@ export default function Body2() {
                 postcode en huisnummer in de postcodecheck in en je ziet direct
                 ons aanbod.
               </p>
-              <p className="text-left text-blue-500 pt-4">
+              <button className="text-left text-blue-500 pt-4 ">
                 Bekijk Stroom en Gas aanbod
-              </p>
+              </button>
             </div>
             <div className="flex flex-col w-screen rs:w-auto">
               <div className="pinkheader">
