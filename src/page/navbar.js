@@ -1,6 +1,10 @@
 import "./styles.css";
+import Example from "./menu";
+import React from "react";
 
 export default function Navbar() {
+  const isDesktop = window.innerWidth > 1374;
+
   return (
     <div>
       <div className="bg-gray-100 p-4 w-auto rs:px-48">
@@ -22,13 +26,22 @@ export default function Navbar() {
           src="images/image/logo-essent.png"
           alt="essent"
         />
-        <ul className="flex flex-row text-vtiny rs:text-base rs:pt-8 rs:space-x-4 ">
-          <li>Stroom &amp; Gas</li>
-          <li>Energieproducten</li>
-          <li>Speciaal voor Klanten</li>
-          <li>Klantenservice</li>
-        </ul>
+        <div>
+          {isDesktop ? (
+            <ul className="flex flex-row text-vtiny rs:text-base rs:pt-8 rs:space-x-4 ">
+              <li>Stroom &amp; Gas</li>
+              <li>Energieproducten</li>
+              <li>Speciaal voor Klanten</li>
+              <li>Klantenservice</li>
+            </ul>
+          ) : (
+            <div className="relative right-0">
+              <Example />
+            </div>
+          )}
+        </div>
       </div>
+
       <hr></hr>
     </div>
   );
