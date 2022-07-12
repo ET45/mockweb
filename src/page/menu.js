@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/solid";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -8,11 +7,15 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className="relative inline-block items-right text-left">
       <div>
-        <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
-          Menu
-          <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+        <Menu.Button className="inline-flex justify-center w-full text-lg px-4 py-2 bg-white  font-medium text-pink-600 ">
+          Menu{" "}
+          <div className="space-y-1 p-2 pt-2">
+            <div className="w-4 h-0.5 bg-pink-600"></div>
+            <div className="w-4 h-0.5 bg-pink-600"></div>
+            <div className="w-4 h-0.5 bg-pink-600"></div>
+          </div>
         </Menu.Button>
       </div>
 
