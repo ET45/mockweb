@@ -19,7 +19,7 @@ export default function Body1() {
                 Bekijk onze korting op energiebesparende producten.
               </p>
 
-              <button className="w-60 bg-blue-500 rs:flex  mt-4 mx-auto rs:p-4 rs:ml-4 p-2 rs:p-0 hover:bg-blue-700  text-tiny rs:text-base rs:py-2 rounded">
+              <button className="w-60 bg-blue-500 rs:flex  mt-4 mx-auto rs:p-2 rs:ml-4 p-2  hover:bg-blue-700  text-tiny rs:text-base rounded">
                 Ja, ik wil energie besparen
               </button>
 

@@ -1,62 +1,52 @@
 import "./styles.css";
 import Drop from "./menu";
-import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
-  const [size, setSize] = useState(0);
-
-  useEffect(() => {
-    const desktop = window.innerWidth > 1374;
-    setSize(desktop);
-  }, []);
-
   return (
-    <nav className="fixed">
-      {size ? (
-        <div className="">
-          <div className="bg-gray-100 p-4  ">
-            <div className="flex flex-row text-gray-400 space-x-4">
-              <div className="flex flex-row w-1/2 text-left  space-x-4">
-                <p className="text-pink-600">Particulier</p>
-                <p>Zzp</p>
-                <p>Zakelijk</p>
-              </div>
-              <div className="flex flex-row w-1/2 rs:pl-80 relative right-0">
-                <img className="h-8" src="images/icon/Inco.png" alt="man" />
-                <p>Inloogen Mijn Essent</p>
-              </div>
+    <nav className="fixed z-10 w-full ">
+      <div className="hidden rs:block">
+        <div className="bg-gray-100 flex justify-center ">
+          <div className="flex flex-row text-gray-400 space-x-160">
+            <div className="flex flex-row w-1/2 text-left  space-x-4">
+              <p className="text-pink-600">Particulier</p>
+              <p>Zzp</p>
+              <p>Zakelijk</p>
+            </div>
+            <div className="flex flex-row w-1/2 relative right-0">
+              <img className="h-8" src="images/icon/Inco.png" alt="man" />
+              <p>Inloogen Mijn Essent</p>
             </div>
           </div>
-          <div className="flex flex-col bg-white rs:flex-row pl-2 space-x-2 rs:space-x-4 rs:px-48">
-            <img
-              className="h-8 w-16 rs:h-16 rs:w-32"
-              src="images/image/logo-essent.png"
-              alt="essent"
-            />
-            <div>
-              <ul className="flex flex-row text-vtiny rs:text-base rs:pt-8 rs:space-x-4 ">
-                <li>Stroom &amp; Gas</li>
-                <li>Energieproducten</li>
-                <li>Speciaal voor Klanten</li>
-                <li>Klantenservice</li>
-              </ul>
-            </div>
-          </div>
-
-          <hr></hr>
         </div>
-      ) : (
-        <div className="bg-white flex">
+        <div className="flex flex-col bg-white rs:flex-row pr-80 space-x-2 rs:space-x-4 justify-center ">
           <img
             className="h-8 w-16 rs:h-16 rs:w-32"
             src="images/image/logo-essent.png"
             alt="essent"
           />
-          <div className="relative flex justify-end ">
-            <Drop />
+          <div>
+            <ul className="flex flex-row text-vtiny rs:text-base rs:pt-8 rs:space-x-4 ">
+              <li>Stroom &amp; Gas</li>
+              <li>Energieproducten</li>
+              <li>Speciaal voor Klanten</li>
+              <li>Klantenservice</li>
+            </ul>
           </div>
         </div>
-      )}
+      </div>
+
+      <div className="bg-white rs:hidden py-1 flex justify-between">
+        <img
+          className="h-8 w-16 rs:h-16 rs:w-32"
+          src="images/image/logo-essent.png"
+          alt="essent"
+        />
+        <div className="relative flex px-3 ">
+          <Drop />
+        </div>
+      </div>
+
+      <hr></hr>
     </nav>
   );
 }

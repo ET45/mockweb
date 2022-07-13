@@ -28,8 +28,46 @@ export default function Drop() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="origin-top-right absolute right-0 mt-2  w-56  shadow-lg bg-white ring-1  ">
+          <div>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? "bg-gray-100 text-pink-600" : "text-pink-600",
+                    "block px-4 text-tiny text-right "
+                  )}
+                >
+                  Sluiten <a className="font-bold text-base">x</a>
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? "bg-gray-100 text-gray-900" : "text-gray-700",
+                    "block px-4 py-2 text-base font-bold "
+                  )}
+                >
+                  Menu
+                </a>
+              )}
+            </Menu.Item>
+          </div>
+          <hr></hr>
           <div className="py-1">
+            <div>
+              <p>Inloggen</p>
+              <div className="flex flex-row text-tiny p-4">
+                <p>Particulier</p>
+                <p>Zzp</p>
+                <p>Zakelijk</p>
+              </div>
+            </div>
+            <hr></hr>
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -43,6 +81,7 @@ export default function Drop() {
                 </a>
               )}
             </Menu.Item>
+            <hr></hr>
             <Menu.Item>
               {({ active }) => (
                 <a
