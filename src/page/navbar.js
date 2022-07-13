@@ -37,7 +37,7 @@ export default function Navbar() {
 
       <div className="bg-white rs:hidden py-1 flex justify-between">
         <img
-          className="h-8 w-16 rs:h-16 rs:w-32"
+          className="h-12 w-24 pl-3"
           src="images/image/logo-essent.png"
           alt="essent"
         />

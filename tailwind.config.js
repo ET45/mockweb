@@ -10,6 +10,7 @@ module.exports = {
     },
     fontSize: {
       vtiny: ".700rem",
+      bvtiny: ".800rem",
       tiny: ".875rem",
       btiny: ".950rem",
       base: "1rem",
@@ -37,6 +38,7 @@ module.exports = {
         168: "42rem",
         180: "45rem",
         200: "50rem",
+        400: "100rem",
       },
       margin: {
         50: "12.5rem",

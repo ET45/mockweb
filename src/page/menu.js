@@ -7,7 +7,7 @@ function classNames(...classes) {
 
 export default function Drop() {
   return (
-    <Menu as="div" className="relative inline-block items-right text-left">
+    <Menu as="div" className=" inline-block items-right text-left">
       <div>
         <Menu.Button className="inline-flex justify-center w-full text-lg px-4 py-2 bg-white  font-medium text-pink-600 ">
           Menu{" "}
@@ -24,11 +24,11 @@ export default function Drop() {
         enter="transition ease-out duration-100"
         enterFrom="transform opacity-0 scale-95"
         enterTo="transform opacity-100 scale-100"
-        leave="transition ease-in duration-75"
+        leave="transition ease-in duration-100"
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="origin-top-right absolute right-0 mt-2  w-56  shadow-lg bg-white ring-1  ">
+        <Menu.Items className=" absolute top-0 right-0 w-72  h-400 shadow-lg bg-white   ">
           <div>
             <Menu.Item>
               {({ active }) => (
@@ -36,7 +36,7 @@ export default function Drop() {
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-pink-600" : "text-pink-600",
-                    "block px-4 text-tiny text-right "
+                    "block m px-3 text-tiny text-right "
                   )}
                 >
                   Sluiten <a className="font-bold text-base">x</a>
@@ -49,7 +49,7 @@ export default function Drop() {
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-base font-bold "
+                    "block px-4 pb-2 text-lg font-bold "
                   )}
                 >
                   Menu
@@ -58,11 +58,11 @@ export default function Drop() {
             </Menu.Item>
           </div>
           <hr></hr>
-          <div className="py-1">
-            <div>
-              <p>Inloggen</p>
-              <div className="flex flex-row text-tiny p-4">
-                <p>Particulier</p>
+          <div className="py-1 ">
+            <div className="space-y-4">
+              <p className="flex pl-4">Inloggen</p>
+              <div className="flex flex-row text-bvtiny p-4 space-x-2">
+                <p className="text-pink-600">Particulier</p>
                 <p>Zzp</p>
                 <p>Zakelijk</p>
               </div>
@@ -95,6 +95,7 @@ export default function Drop() {
                 </a>
               )}
             </Menu.Item>
+            <hr></hr>
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -108,6 +109,7 @@ export default function Drop() {
                 </a>
               )}
             </Menu.Item>
+            <hr></hr>
             <form method="POST" action="#">
               <Menu.Item>
                 {({ active }) => (
@@ -122,6 +124,7 @@ export default function Drop() {
                   </a>
                 )}
               </Menu.Item>
+              <hr></hr>
             </form>
           </div>
         </Menu.Items>
