@@ -36,7 +36,7 @@ export default function Drop() {
                   href="#"
                   className={classNames(
                     active ? "bg-gray-100 text-pink-600" : "text-pink-600",
-                    "block m px-3 text-tiny text-right "
+                    "block m px-3 mr-2text-tiny text-right "
                   )}
                 >
                   Sluiten <a className="font-bold text-base">x</a>

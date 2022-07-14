@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     screens: {
       rs: "85.875rem",
+      rd: "24rem",
     },
     fontFamily: {
       sans: ["sans-serif"],

@@ -6,8 +6,31 @@ export default function Body1() {
       <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:px-80 ">
         <div className="flex px-2 rs:w-2/3 text-white">
           <div
-            className="flex flex-col  bg-center bg-auto  h-92 w-full "
+            className=" flex-col  bg-center bg-auto  h-92 w-full hidden rs:flex"
             style={{ backgroundImage: "url('images/image/image6.png')" }}
+          >
+            <div>
+              <h2 className=" w-80 text-left font-bold text-2xl pl-5 pt-4 ">
+                BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA
+                MAKKELIJK.
+              </h2>
+
+              <p className=" text-left w-80 text-l rs:text-base pl-5 ">
+                Bekijk onze korting op energiebesparende producten.
+              </p>
+
+              <button className="w-60 bg-blue-500 flex  mt-4 mx-auto p-2 ml-4  hover:bg-blue-700  text-base rounded">
+                Ja, ik wil energie besparen
+              </button>
+
+              <p className=" text-left text-bottom  pl-5  text-vtiny italic">
+                Pagina opent in een nieuw venster
+              </p>
+            </div>
+          </div>
+          <div
+            className=" flex-col rs:hidden rd:bg-center bg-cover  h-92 w-full flex"
+            style={{ backgroundImage: "url('images/image/secondary.jpeg')" }}
           >
             <div>
               <h2 className=" rs:w-80 w-700 rs:text-left font-bold text-3xl rs:text-2xl pl-5 pt-4 ">
