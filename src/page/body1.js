@@ -2,14 +2,14 @@ import "./styles.css";
 
 export default function Body1() {
   return (
-    <div className="pt-32">
+    <div className="pt-20 rs:pt-32">
       <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:px-80 ">
-        <div className="flex rs:w-2/3 text-white">
+        <div className="flex px-2 rs:w-2/3 text-white">
           <div
-            className="flex flex-col  bg-center h-92 w-full "
+            className="flex flex-col  bg-center bg-auto  h-92 w-full "
             style={{ backgroundImage: "url('images/image/image6.png')" }}
           >
-            <div className="pt-10 rs:pt-0">
+            <div>
               <h2 className=" rs:w-80 w-700 rs:text-left font-bold text-3xl rs:text-2xl pl-5 pt-4 ">
                 BESPAREN OP ENERGIE? MET THUISVOORDEEL WORDT HET ÉXTRA
                 MAKKELIJK.
@@ -29,7 +29,7 @@ export default function Body1() {
             </div>
           </div>
         </div>
-        <div className="flex rs:h-92   rs:px-0 rs:w-200 rs:w-1/3 ">
+        <div className="flex rs:h-92   rs:px-0  rs:w-1/3 ">
           <div className=" border border-black-200 rs:p-8">
             <h1 className="text-pink-600 px-4 rs:px-0 text-lg text-left font-bold">
               Grip op energie
@@ -70,7 +70,7 @@ export default function Body1() {
         </p>
       </div>
 
-      <div className="flex grid grid-flow-row place-content-center space-y-4 rs:grid-flow-col rs:space-x-10 rs:space-y-0 font-sans mx-52 ">
+      <div className="grid grid-flow-row place-content-center space-y-4 rs:grid-flow-col rs:space-x-10 rs:space-y-0 font-sans mx-40 ">
         <div className="card">
           <h4 className="headline">Stroom &amp; Gas</h4>
           <img src="images/image/image3.jpg" alt="img3" />
@@ -186,7 +186,7 @@ export default function Body1() {
           </ul>
         </div>
       </div>
-      <div className="flex  flex-row pb-8 place-content-center">
+      <div className="flex flex-row pt-12 place-content-center">
         <p className="pt-4">
           Onze klanten beoordelen ons met een <strong>8,1</strong>
         </p>

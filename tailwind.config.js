@@ -43,6 +43,9 @@ module.exports = {
       margin: {
         50: "12.5rem",
       },
+      borderRadius: {
+        mdm: "0.25rem",
+      },
     },
   },
   plugins: [],

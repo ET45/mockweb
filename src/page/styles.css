@@ -3,13 +3,13 @@
 @tailwind utilities;
 @layer components {
   .headline {
-    @apply text-justify text-white rounded-t-xl py-4 pl-2 h-16 bg-pink-600 font-bold;
+    @apply text-justify text-white rounded-t-mdm py-4 pl-2 h-16 bg-pink-600 font-bold;
   }
   .list {
     @apply text-left divide-y  drop-shadow-lg bg-white;
   }
   .card {
-    @apply flex-none w-80;
+    @apply w-80;
   }
   .icongray {
     @apply flex flex-row bg-white space-x-4 w-72 h-20 drop-shadow-lg pt-2 rounded;

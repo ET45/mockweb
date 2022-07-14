@@ -2,11 +2,11 @@ import "./styles.css";
 export default function Body2() {
   return (
     <div>
-      <div className="bg-gray-100 bg-cover py-4">
+      <div className="bg-gray-100 bg-cover py-4 ">
         <h1 className="text-4xl font-bold rs:text-left py-4 rs:pl-52">
           Vandaag geregeld
         </h1>
-        <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 space-x-0 rs:space-x-8 ">
+        <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 rs:pb-20 space-x-0 rs:space-x-8 ">
           <div className="icongray">
             <img
               className="h-12 pt-4 pl-2"
@@ -40,7 +40,7 @@ export default function Body2() {
             <p className="pt-5">Facturen bekijken</p>
           </div>
         </div>
-        <div className=" flex flex-col rs:flex-row pt-20 rs:pt-0 rs:p-24 space-y-10 rs:px-52 rs:space-x-12">
+        <div className=" flex flex-col rs:flex-row pt-10 rs:pt-0  rs:p-24 space-y-10 rs:space-y-0 rs:px-52 rs:space-x-12">
           <div className="w-1/2 space-y-8 ">
             <div className="flex flex-col w-screen rs:w-auto">
               <div className="pinkheader ">
