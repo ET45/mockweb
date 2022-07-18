@@ -26,4 +26,7 @@
   .listitem {
     @apply p-4 flex flex-row;
   }
+  .footerInfo {
+    @apply rs:w-1/3 text-left space-y-8;
+  }
 }

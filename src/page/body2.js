@@ -6,7 +6,7 @@ export default function Body2() {
         <h1 className="text-4xl font-bold rs:text-left py-4 rs:pl-52">
           Vandaag geregeld
         </h1>
-        <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 rs:pb-20 space-x-0 rs:space-x-8 ">
+        <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 rs:pb-20 space-x-0 rs:space-x-8">
           <div className="icongray">
             <img
               className="imageicon"

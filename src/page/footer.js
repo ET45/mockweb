@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
         <hr></hr>
         <div className="flex flex-col rs:flex-row item-center rs:pr-60 space-y-8 rs:space-y-0 rs:space-x-4 ">
-          <div className="w-1/3 text-left space-y-8">
+          <div className="footerInfo">
             <h4 className="font-bold">Particulier</h4>
             <ul className="space-y-4">
               <li>Stroom en gas</li>
@@ -28,7 +28,7 @@ export default function Footer() {
               <li>Klantenservice</li>
             </ul>
           </div>
-          <div className="w-1/3 text-left space-y-8">
+          <div className="footerInfo">
             <h4 className="font-bold">Zakelijk</h4>
             <ul className="space-y-4">
               <li>Zakelijke energie</li>
@@ -37,7 +37,7 @@ export default function Footer() {
               <li>Klantenservice</li>
             </ul>
           </div>
-          <div className="w-1/3 text-left space-y-8">
+          <div className="footerInfo">
             <h4 className="font-bold">Over Essent</h4>
             <ul className="space-y-4">
               <li>Energietransitie</li>

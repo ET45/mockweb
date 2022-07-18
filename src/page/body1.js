@@ -209,11 +209,15 @@ export default function Body1() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row px-2 pt-12 place-content-center">
+      <div className="flex rs:flex-row space-y-2 rs:space-y-0 flex-col rs:px-2 pt-2 rs:pt-12 rs:place-content-center">
         <p className="pt-4">
           Onze klanten beoordelen ons met een <strong>8,1</strong>
         </p>
-        <img src="images/image/logo.png" alt="logo" />
+        <img
+          className="object-contain h-10 w-full"
+          src="images/image/logo.png"
+          alt="logo"
+        />
       </div>
     </section>
   );
