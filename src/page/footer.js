@@ -2,7 +2,7 @@ import "./styles.css";
 export default function Footer() {
   return (
     <div>
-      <div className="flex flex-col text-white bg-gray-400 p-4 rs:p-8 rs:px-56 space-y-12">
+      <section className="flex flex-col text-white bg-gray-400 p-4 rs:p-8 rs:px-56 space-y-12">
         <h1 className="font-bold text-left">Volg Essent hier</h1>
         <div className="flex flex-col rs:flex-row space-y-8 rs:space-y-0 rs:space-x-16">
           <div className="flex rs:flex-row space-x-8 w-1/2">
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
           <p className="pt-4 py-2 text-left">Whistleblowing E.ON</p>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

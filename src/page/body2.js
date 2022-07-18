@@ -2,14 +2,14 @@ import "./styles.css";
 export default function Body2() {
   return (
     <div>
-      <div className="bg-gray-100 bg-cover py-4 rs:px-44">
+      <section className="bg-gray-100 bg-cover py-4 rs:px-44">
         <h1 className="text-4xl font-bold rs:text-left py-4 rs:pl-52">
           Vandaag geregeld
         </h1>
         <div className="grid grid-flow-row rs:grid-flow-col place-content-center space-y-8 rs:space-y-0 rs:pb-20 space-x-0 rs:space-x-8 ">
           <div className="icongray">
             <img
-              className="h-12 pt-4 pl-2"
+              className="imageicon"
               src="images/icon/Gauge.png"
               alt="gauge"
             />
@@ -17,7 +17,7 @@ export default function Body2() {
           </div>
           <div className="icongray">
             <img
-              className="h-12 pt-4 pl-2"
+              className="imageicon"
               src="images/icon/Graph.png"
               alt="graph"
             />
@@ -25,7 +25,7 @@ export default function Body2() {
           </div>
           <div className="icongray">
             <img
-              className="h-12 pt-4 pl-2"
+              className="imageicon"
               src="images/icon/Money.png"
               alt="money"
             />
@@ -33,14 +33,14 @@ export default function Body2() {
           </div>
           <div className="icongray">
             <img
-              className="h-12 pt-4 pl-2"
+              className="imageicon"
               src="images/icon/Paper.png"
               alt="paper"
             />
             <p className="pt-5">Facturen bekijken</p>
           </div>
         </div>
-        <div className=" flex px-2 flex-col rs:flex-row pt-10 rs:pt-0  rs:p-24 space-y-10 rs:space-y-0 rs:px-52 rs:space-x-12">
+        <div className=" flex flex-col rs:flex-row pt-10 rs:pt-0 px-4 rs:p-24 space-y-10 rs:space-y-0 rs:px-52 rs:space-x-12">
           <div className="rs:w-1/2 space-y-8 ">
             <div className="flex flex-col w-auto ">
               <div className="pinkheader ">
@@ -122,7 +122,7 @@ export default function Body2() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

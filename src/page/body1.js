@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function Body1() {
   return (
-    <div className="pt-20 rs:pt-32">
+    <section className="pt-20 rs:pt-32">
       <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:px-96 ">
         <div className="flex px-2 rs:w-2/3 text-white">
           <div
@@ -101,7 +101,7 @@ export default function Body1() {
             <li className="listitem ">
               Vergelijk onze energieaanbiedingen{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -109,7 +109,7 @@ export default function Body1() {
             <li className="listitem ">
               Overstappen naar Essent{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -117,7 +117,7 @@ export default function Body1() {
             <li className="listitem flex f">
               Snel klant worden{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -125,7 +125,7 @@ export default function Body1() {
             <li className="listitem">
               Stroom &amp; Gas tarieven{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -139,7 +139,7 @@ export default function Body1() {
             <li className="listitem">
               Zonnepanelen{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -147,7 +147,7 @@ export default function Body1() {
             <li className="listitem">
               Isolatie{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -155,7 +155,7 @@ export default function Body1() {
             <li className="listitem">
               Gratis online huisscan{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -163,7 +163,7 @@ export default function Body1() {
             <li className="listitem">
               Cv-ketel onderhoud{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -177,7 +177,7 @@ export default function Body1() {
             <li className="listitem">
               Klantprogramma Thuisvoordeel{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -185,7 +185,7 @@ export default function Body1() {
             <li className="listitem">
               Verbruiksmanager+app{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -193,7 +193,7 @@ export default function Body1() {
             <li className="listitem">
               Mijn Essent{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -201,7 +201,7 @@ export default function Body1() {
             <li className="listitem">
               Klantenservice{" "}
               <img
-                className="h-5 absolute right-2"
+                className="arrowIcon"
                 src="images/icon/arrow.png"
                 alt="arrow"
               />
@@ -215,6 +215,6 @@ export default function Body1() {
         </p>
         <img src="images/image/logo.png" alt="logo" />
       </div>
-    </div>
+    </section>
   );
 }
