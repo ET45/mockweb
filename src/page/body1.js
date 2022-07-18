@@ -3,7 +3,7 @@ import "./styles.css";
 export default function Body1() {
   return (
     <div className="pt-20 rs:pt-32">
-      <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:px-80 ">
+      <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:px-96 ">
         <div className="flex px-2 rs:w-2/3 text-white">
           <div
             className=" flex-col  bg-center bg-auto  h-92 w-full hidden rs:flex"
@@ -209,7 +209,7 @@ export default function Body1() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row pt-12 place-content-center">
+      <div className="flex flex-row px-2 pt-12 place-content-center">
         <p className="pt-4">
           Onze klanten beoordelen ons met een <strong>8,1</strong>
         </p>

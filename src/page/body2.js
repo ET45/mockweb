@@ -2,7 +2,7 @@ import "./styles.css";
 export default function Body2() {
   return (
     <div>
-      <div className="bg-gray-100 bg-cover py-4 ">
+      <div className="bg-gray-100 bg-cover py-4 rs:px-44">
         <h1 className="text-4xl font-bold rs:text-left py-4 rs:pl-52">
           Vandaag geregeld
         </h1>
