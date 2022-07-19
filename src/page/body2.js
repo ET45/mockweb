@@ -40,7 +40,7 @@ export default function Body2() {
             <p className="pt-5">Facturen bekijken</p>
           </div>
         </div>
-        <div className=" flex flex-col rs:flex-row pt-10 rs:pt-0 px-4 rs:p-24 space-y-10 rs:space-y-0 rs:px-52 rs:space-x-12">
+        <div className=" flex flex-col rs:flex-row pt-10 rs:pt-0 px-4 rs:p-20 space-y-10 rs:space-y-0 rs:px-20 rs:space-x-12">
           <div className="rs:w-1/2 space-y-8 ">
             <div className="flex flex-col w-auto ">
               <div className="pinkheader ">
@@ -90,7 +90,7 @@ export default function Body2() {
               <h1 className="font-bold text-2xl pb-4 text-left">
                 Energieleverancier Essent
               </h1>
-              <div className="space-y-4">
+              <div className="space-y-4 ">
                 <p className="text-left">
                   Als energieleverancier helpen we ruim 2,5 miljoen klanten aan
                   energie in de particuliere en zakelijke markt. We helpen je

@@ -25,6 +25,9 @@ module.exports = {
       "7xl": "5rem",
     },
     extend: {
+      dropShadow: {
+        vxl: "0rem 0rem 15rem rgba(0, 0, 0, 100)",
+      },
       spacing: {
         84: "21rem",
         88: "22rem",

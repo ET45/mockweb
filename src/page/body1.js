@@ -3,7 +3,7 @@ import "./styles.css";
 export default function Body1() {
   return (
     <section className="pt-20 rs:pt-32">
-      <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:px-96 ">
+      <div className=" rs:item-left  flex pt-4 items-center space-y-4 rs:space-y-0 rs:space-x-4 flex-col rs:flex-row rs:mx-56 ">
         <div className="flex px-2 rs:w-2/3 text-white">
           <div
             className=" flex-col  bg-center bg-auto  h-92 w-full hidden rs:flex"
@@ -214,7 +214,7 @@ export default function Body1() {
           Onze klanten beoordelen ons met een <strong>8,1</strong>
         </p>
         <img
-          className="object-contain h-10 w-full"
+          className="object-contain rs:object-none h-10 rs:h-auto w-full rs:w-auto"
           src="images/image/logo.png"
           alt="logo"
         />

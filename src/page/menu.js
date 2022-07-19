@@ -28,7 +28,7 @@ export default function Drop() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className=" absolute top-0 right-0 w-72  h-400 shadow-lg bg-white   ">
+        <Menu.Items className=" absolute -top-1 right-0 w-72  h-400 drop-shadow-vxl bg-white   ">
           <div>
             <Menu.Item>
               {({ active }) => (
